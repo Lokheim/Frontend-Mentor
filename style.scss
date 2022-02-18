@@ -37,7 +37,9 @@ section {
   display: flex;
   width: min-content;
   flex-direction: column;
+  justify-content: center;
   margin: auto;
+  align-items: center;
   gap: 2em;
   top: 1em;
   p {
@@ -118,16 +120,15 @@ h1 {
     justify-content: flex-start;
     margin: auto;
     top: 5rem;
-    justify-content: space-between;
     gap: 0;
     height: 50px;
-    max-width: 100%;
+    width: 100%;
     b {
       font-size: 20px;
       color: hsl(0, 0%, 100%);
     }
     p {
-      width: 5rem;
+      text-align: left;
     }
   }
 
