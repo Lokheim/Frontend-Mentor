@@ -4,7 +4,7 @@ body {
   background-color: hsl(233, 47%, 7%);
 }
 
-section {
+main {
   background-color: hsl(244, 38%, 16%);
   position: relative;
   display: flex;
@@ -78,7 +78,7 @@ h1 {
 }
 
 @media only screen and (min-width: 800px) {
-  section {
+  main {
     background-color: hsl(244, 38%, 16%);
     position: absolute;
     display: flex;
