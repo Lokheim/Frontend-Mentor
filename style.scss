@@ -35,11 +35,17 @@ section {
 .main_info_trades {
   position: relative;
   display: flex;
+  width: max-content;
   flex-direction: column;
+  justify-content: center;
   margin: auto;
-  text-align: center;
   gap: 2em;
   top: 1em;
+  span {
+    margin: 0;
+    max-width: 100%;
+    color: hsla(0, 0%, 100%, 0.75);
+  }
   b {
     font-size: 20px;
     color: hsl(0, 0%, 100%);
